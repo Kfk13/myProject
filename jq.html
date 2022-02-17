@@ -8,11 +8,31 @@
           $('#btn').click(function(){
              $('#para').hide(3000)
           })
-          $('#btn_1').dblclick(function(){
-             $('#para').show(3000)
+          $('#para').dblclick(function(){
+             $('#para').slide(3000)
+             $('#para').slideUp()
           })
       });
   </script>
+  <style>
+     body {
+        background-color: pink;
+       }
+     #para {
+        color: yelow;
+        font-family: monospace;
+        border: solid 4px green;
+        border-radius: 10.5px;
+        text-align: center;
+       }
+     #btn_1 {
+        color: red;
+        text-size: 20px;
+        border: solid 3.2px black
+        border-radius: 10.5px;
+        font-family: sens-serfi;
+       {
+  </style>
 <head>
 <body>
     <hr>
